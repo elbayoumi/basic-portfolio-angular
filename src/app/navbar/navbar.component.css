@@ -1,0 +1,30 @@
+nav{
+  background-color: var(--primary-color-lighter-bg) !important;
+  border-radius: var(--border-reduses);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* padding: 0.5rem; */
+}
+.navbar-collapse {
+  /* display: flex; */
+  align-items: center;
+  justify-content: start;
+
+}
+
+.navbar-nav >*:hover{
+  background-color: var(--primary-color-lighter)!important;
+}
+.navbar-nav >*{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: var(--border-reduses);
+margin: 0;
+}
+.navbar-brand img{
+display: inline-block;
+height: 3rem ;
+/* margin-right: 3rem; */
+margin: 0;
+}
+/* edckmj */

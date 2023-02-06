@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  /* border: 1px solid  black; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* cursor: pointer; */
+}
+
+:root {
+  --primary-color: #03cf68;
+  --primary-color-dark: #029166;
+  --primary-color-light: #81ffd9;
+  --primary-color-lighter: #c0ffec;
+  --primary-color-lighter-bg: #f6fdfb;
+  --border-reduses:.5rem
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}
+.bgcolor
+{
+  background: linear-gradient(var(--primary-color-lighter-bg),var(--primary-color-light));
+  border-radius: var(--border-reduses);
+
+}
