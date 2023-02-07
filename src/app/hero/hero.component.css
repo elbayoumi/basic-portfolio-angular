@@ -13,6 +13,5 @@ justify-content: center;
   margin: auto;
  }
  .hero__info a:hover{
-  background-color: var(--primary-color-lighter)!important;
-
+background: var(--primary-color-light);
  }
