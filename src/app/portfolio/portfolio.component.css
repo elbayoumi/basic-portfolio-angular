@@ -1,0 +1,32 @@
+.portfolio
+{
+  background-color: white;
+  padding-top: 2rem;
+}
+.portfolio_cards
+{
+  display: flex ;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between ;
+  width: 100%;
+}
+.portfolio_cards>*{
+ width: 20rem;
+ /* height: 12rem; */
+ margin: 1rem;
+ background-color: var(--primary-color-lighter-bg) !important;
+
+}
+.portfolio .btn {
+  /* background: var(--primary-color-light); */
+  border: none;
+}
+.portfolio .btn:hover{
+  background-color: var(--primary-color-lighter)!important;
+
+}
+.card-body
+{
+  border-radius: 1rem;
+}

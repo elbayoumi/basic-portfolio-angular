@@ -1,0 +1,13 @@
+<div id="portfolio" class="portfolio row">
+  <h4 class="portfolio_header col-12">Portfolio</h4>
+  <div class="portfolio_cards col-12 row " >
+    <div class="card col-3 p-5" *ngFor="let portfolio of portfolios ;let i=index" >
+      <div class="card-body text-center" [ngStyle]="{'background-color':i%2?'#81adff ':'#81ffd9'}">
+        <h5 class="card-title">{{portfolio}}</h5>
+        
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->

@@ -1,0 +1,17 @@
+.about_me {
+  padding: 4rem;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_me .btn {
+  background: linear-gradient(var(--primary-color-lighter-bg),var(--primary-color-light));
+  border: none;
+}
+.about_me .btn:hover{
+  background-color: var(--primary-color-lighter)!important;
+
+}

@@ -1,0 +1,17 @@
+
+ .hero{
+display: flex;
+flex-wrap: wrap;
+text-align: center;
+justify-content: center;
+}
+.hero>*{
+  width: 50%;
+}
+
+ .hero__info{
+  margin: auto;
+ }
+ .hero__info a:hover{
+background: var(--primary-color-light);
+ }

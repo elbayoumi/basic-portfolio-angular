@@ -1,0 +1,31 @@
+footer {
+  padding: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  /* font-size: 1.5rem; */
+}
+footer>*{
+/* width: 150px; */
+padding: .5rem;
+}
+
+.footer_sec_one > * {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+.footer_sec_one > * > * {
+  margin: 1rem;
+}
+h5{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.footer_sotial>*{
+display: inline-block;
+margin: .5rem;
+
+}
